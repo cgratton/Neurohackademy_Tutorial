@@ -64,7 +64,7 @@ def figure_corrmat(corrmat,Parcel_params,clims=(-1,1)):
 
     # main figure plotting
     fig, ax = plt.subplots()
-    im = ax.imshow(corrmat[roi_sort,:][:,roi_sort],cmap='seismic',vmin=clims[0],vmax=clims[1])
+    im = ax.imshow(corrmat[roi_sort,:][:,roi_sort],cmap='seismic',vmin=clims[0],vmax=clims[1],interpolation='none')
     plt.colorbar(im)
 
     # add some lines between networks
