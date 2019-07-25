@@ -39,10 +39,10 @@ if not os.path.exists(outdir):
     os.mkdir(outdir)
     
 # What to do:
-step1_grayplots = False
-step2_corrmats = False
+step1_grayplots = True
+step2_corrmats = True
 step3_springplots = True
-step4_hubs = False
+step4_hubs = True
 
 
 # --------------------------------------------------------------------------------------
