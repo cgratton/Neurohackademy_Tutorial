@@ -77,7 +77,7 @@ def compute_FD(mvm_orig,convert_rot = False,radius = 50):
 
 
 def compute_DVARS(GMtcs):
-    """ This function will compute DVARS gieven a set of GM timecourses
+    """ This function will compute DVARS given a set of GM timecourses
 
     Inputs:
     GMtcs: a set of gray matter timecourses (voxel x time)
